@@ -1,3 +1,7 @@
+let date = new Date();
+let year = date.getFullYear();
+document.getElementById("year").innerHTML = year;
+
 let slideIndex = 1;
 showSlides(slideIndex);
 function plusSlides(n){
@@ -39,3 +43,4 @@ let laptopheader = document.getElementById("products-header").innerHTML;
 function boughtMessage(){
     alert("Successfully bought " + laptopheader);
 }
+
