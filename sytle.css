@@ -1,11 +1,13 @@
 *{
     box-sizing: border-box;
+  
 }
 
 body{
     font-family: 'Roboto Mono', monospace;
     background-color: rgb(27, 37, 51);
     color: white;
+
 }
 
 .nav-bar{
@@ -307,4 +309,10 @@ th, td{
 
 .buy:hover{
     opacity: 0.7;
+}
+
+@media only screen and (max-width: 768px){
+    .links{
+        display: none;
+    }
 }
